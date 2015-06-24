@@ -14,6 +14,7 @@
 		34DB90641B3A44BF001590C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DB90631B3A44BF001590C9 /* Images.xcassets */; };
 		34DB90671B3A44BF001590C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DB90651B3A44BF001590C9 /* LaunchScreen.xib */; };
 		34DB90731B3A44BF001590C9 /* LearnGitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DB90721B3A44BF001590C9 /* LearnGitTestTests.m */; };
+		34DB907E1B3A4590001590C9 /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DB907D1B3A4590001590C9 /* myViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		34DB906C1B3A44BF001590C9 /* LearnGitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnGitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DB90711B3A44BF001590C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34DB90721B3A44BF001590C9 /* LearnGitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnGitTestTests.m; sourceTree = "<group>"; };
+		34DB907C1B3A4590001590C9 /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
+		34DB907D1B3A4590001590C9 /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				34DB905B1B3A44BF001590C9 /* AppDelegate.m */,
 				34DB905D1B3A44BF001590C9 /* ViewController.h */,
 				34DB905E1B3A44BF001590C9 /* ViewController.m */,
+				34DB907C1B3A4590001590C9 /* myViewController.h */,
+				34DB907D1B3A4590001590C9 /* myViewController.m */,
 				34DB90601B3A44BF001590C9 /* Main.storyboard */,
 				34DB90631B3A44BF001590C9 /* Images.xcassets */,
 				34DB90651B3A44BF001590C9 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				34DB905F1B3A44BF001590C9 /* ViewController.m in Sources */,
 				34DB905C1B3A44BF001590C9 /* AppDelegate.m in Sources */,
+				34DB907E1B3A4590001590C9 /* myViewController.m in Sources */,
 				34DB90591B3A44BF001590C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
